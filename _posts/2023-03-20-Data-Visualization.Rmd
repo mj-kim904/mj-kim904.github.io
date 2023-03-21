@@ -4,7 +4,6 @@ author: "Minjeong Kim"
 date: "2023-02-22"
 output:
   html_document: default
-  pdf_document: default
 ---
 <style type="text/css">
 
