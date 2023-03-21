@@ -22,9 +22,8 @@ pre {
 }
 </style>
 
-<center>
 **Data Visualization in R**
-<center>
+
 
 This is a lecture note for a data science course (“Data Science for
 Psychology Major”) at San Francisco State University (lectured by
