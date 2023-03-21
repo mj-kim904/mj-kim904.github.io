@@ -7,6 +7,9 @@ output:
   md_document:
     variant: markdown_github
     preserve_yaml: true
+
+toc: true
+toc_sticky: true
 ---
 
 <style type="text/css">
@@ -20,9 +23,12 @@ code.r{
 pre {
   font-family: times, serif; font-size: 12px
 }
+h1 {text-align: center;}
+h3 {text-align: center;}
 </style>
 
-**Data Visualization in R**
+
+#**Data Visualization in R**
 
 
 This is a lecture note for a data science course (“Data Science for
@@ -102,7 +108,7 @@ Here is the code for visualization using the ggplot() function.
 \[Code\] ggplot(data = <DATA>) + <GEOM_FUNCTION>(mapping =
 aes(<MAPPINGS>))
 
-**Scatter Plot**
+###**Scatter Plot**
 
 \[Code\] ggplot(data = <DATA>) + geom_point(mapping = aes(<MAPPINGS>))
 
@@ -124,7 +130,7 @@ ggplot(data = mpg) +
 
 ![](/_posts/images/unnamed-chunk-3-2.png)
 
-**Bar Graph**
+###**Bar Graph**
 
 ``` r
 survey <- data.frame(fruit = c("Apple", "Banana", "Grapes", "Kiwi", "Orange", "Pears"), people=c(40, 50, 30, 15, 35, 20))
@@ -231,7 +237,7 @@ ggplot(survey, aes(x=fruit, y=people, fill=fruit)) +
 
 ![](/_posts/images/unnamed-chunk-5-7.png)
 
-**Line Graph**
+###**Line Graph**
 
 Here, we will use a different data set called “Orange”.
 
@@ -297,7 +303,7 @@ ggplot(data = tree_1) +
 
 ![](/_posts/images/unnamed-chunk-9-1.png)
 
-**Scatter Plot with Line Added**
+###**Scatter Plot with Line Added**
 
 In the section, we will use “swiss” data set and learn how to add a line
 to a scatter plot.
