@@ -427,5 +427,5 @@ ggplot(data = swiss) +
 
 ![](./_posts/images/unnamed-chunk-10-2.png)
 
-\*More information about the line can be found in the posting for the
-linear regression.
+*More information about the line can be found in the posting for the
+linear regression.*
