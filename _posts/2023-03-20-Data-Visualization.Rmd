@@ -1,11 +1,10 @@
 ---
-layout: post
 title: "Basic Data Visualization in R"
 author: "Minjeong Kim"
 date: "2023-02-22"
 output:
-  md_document:
-    variant: markdown_github
+  html_document: default
+  pdf_document: default
 ---
 <style type="text/css">
 
