@@ -96,7 +96,7 @@ ggplot(data = mpg) +
   geom_point(mapping = aes(x = displ, y = hwy))
 ```
 
-![](/images/unnamed-chunk-3-1.png)
+![](D:/MJ/study/Personal Project/Github Portfolio/Github Blog/mj-kim904.github.io/_posts/images/unnamed-chunk-3-1.png)
 
 ``` r
 #Highway Miles per Gallon vs. City Miles per Gallon
@@ -104,7 +104,7 @@ ggplot(data = mpg) +
   geom_point(mapping = aes(x = cty, y = hwy))
 ```
 
-![](/images/unnamed-chunk-3-2.png)
+![](D:/MJ/study/Personal Project/Github Portfolio/Github Blog/mj-kim904.github.io/_posts/images/unnamed-chunk-3-2.png)
 
 **Bar Graph**
 
@@ -131,7 +131,7 @@ ggplot(data = survey, aes(x=fruit, y=people)) +
   geom_bar(stat = "identity")
 ```
 
-![](/images/unnamed-chunk-4-1.png)
+![](D:/MJ/study/Personal Project/Github Portfolio/Github Blog/mj-kim904.github.io/_posts/images/unnamed-chunk-4-1.png)
 
 ``` r
 #The argument "stat = identity" is telling it not to transform the data.
@@ -145,7 +145,7 @@ ggplot(survey, aes(x=fruit, y=people, fill=fruit)) +
   geom_bar(stat="identity")
 ```
 
-![](/images/unnamed-chunk-5-1.png)
+![](D:/MJ/study/Personal Project/Github Portfolio/Github Blog/mj-kim904.github.io/_posts/images/unnamed-chunk-5-1.png)
 
 ``` r
 #Make bars with specific color
@@ -154,7 +154,7 @@ ggplot(survey, aes(x=fruit, y=people, fill=fruit)) +
   scale_fill_manual(values = c("red2", "yellow2", "slateblue4", "green3", "orange", "olivedrab2"))
 ```
 
-![](/images/unnamed-chunk-5-2.png)
+![](D:/MJ/study/Personal Project/Github Portfolio/Github Blog/mj-kim904.github.io/_posts/images/unnamed-chunk-5-2.png)
 
 ``` r
 #Make bars with grey scale
@@ -163,7 +163,7 @@ ggplot(survey, aes(x=fruit, y=people, fill=fruit)) +
   scale_fill_grey()
 ```
 
-![](/images/unnamed-chunk-5-3.png)
+![](D:/MJ/study/Personal Project/Github Portfolio/Github Blog/mj-kim904.github.io/_posts/images/unnamed-chunk-5-3.png)
 
 ``` r
 #Make it in different theme
@@ -173,7 +173,7 @@ ggplot(survey, aes(x=fruit, y=people, fill=fruit)) +
   theme_classic()
 ```
 
-![](/images/unnamed-chunk-5-4.png)
+![](D:/MJ/study/Personal Project/Github Portfolio/Github Blog/mj-kim904.github.io/_posts/images/unnamed-chunk-5-4.png)
 
 ``` r
 #Modify bar width
@@ -183,7 +183,7 @@ ggplot(survey, aes(x=fruit, y=people, fill=fruit)) +
   theme_classic()
 ```
 
-![](/images/unnamed-chunk-5-5.png)
+![](D:/MJ/study/Personal Project/Github Portfolio/Github Blog/mj-kim904.github.io/_posts/images/unnamed-chunk-5-5.png)
 
 ``` r
 #Add titiles and label axes
@@ -196,7 +196,7 @@ ggplot(survey, aes(x=fruit, y=people, fill=fruit)) +
   ylab("Number of People")
 ```
 
-![](/images/unnamed-chunk-5-6.png)
+![](D:/MJ/study/Personal Project/Github Portfolio/Github Blog/mj-kim904.github.io/_posts/images/unnamed-chunk-5-6.png)
 
 ``` r
 #add labels 
@@ -211,7 +211,7 @@ ggplot(survey, aes(x=fruit, y=people, fill=fruit)) +
   ylab("Number of People")
 ```
 
-![](/images/unnamed-chunk-5-7.png)
+![](D:/MJ/study/Personal Project/Github Portfolio/Github Blog/mj-kim904.github.io/_posts/images/unnamed-chunk-5-7.png)
 
 **Line Graph**
 
@@ -227,7 +227,7 @@ ggplot(data = Orange) +
   geom_line(mapping = aes(x = age, y = circumference, color = Tree))
 ```
 
-![](/images/unnamed-chunk-6-1.png)
+![](D:/MJ/study/Personal Project/Github Portfolio/Github Blog/mj-kim904.github.io/_posts/images/unnamed-chunk-6-1.png)
 
 Now, we will create a line graph for tree 1 only.
 
@@ -263,7 +263,7 @@ ggplot(data = tree_1) +
   geom_line(mapping = aes(x = age, y = circumference))
 ```
 
-![](/images/unnamed-chunk-8-1.png)
+![](D:/MJ/study/Personal Project/Github Portfolio/Github Blog/mj-kim904.github.io/_posts/images/unnamed-chunk-8-1.png)
 
 Additional Arguments
 
@@ -277,7 +277,7 @@ ggplot(data = tree_1) +
   ylab("Circumference")
 ```
 
-![](/images/unnamed-chunk-9-1.png)
+![](D:/MJ/study/Personal Project/Github Portfolio/Github Blog/mj-kim904.github.io/_posts/images/unnamed-chunk-9-1.png)
 
 **Scatter Plot with Line Added**
 
@@ -342,7 +342,7 @@ str(swiss)
 plot(swiss)
 ```
 
-![](/images/Swiss%20data-1.png)
+![](D:/MJ/study/Personal Project/Github Portfolio/Github Blog/mj-kim904.github.io/_posts/images/Swiss%20data-1.png)
 
 First, we will use basic function called “plot()” to graph.
 
@@ -360,7 +360,7 @@ plot(swiss$Fertility, swiss$Education)
 abline(lm(swiss$Education ~ swiss$Fertility))
 ```
 
-![](/images/plot%20function%20with%20line-1.png)
+![](D:/MJ/study/Personal Project/Github Portfolio/Github Blog/mj-kim904.github.io/_posts/images/plot%20function%20with%20line-1.png)
 
 ``` r
 #2) Fertility vs. Education
@@ -369,7 +369,7 @@ plot(swiss$Education, swiss$Fertility)
 abline(lm(swiss$Fertility ~ swiss$Education))
 ```
 
-![](/images/plot%20function%20with%20line-2.png)
+![](D:/MJ/study/Personal Project/Github Portfolio/Github Blog/mj-kim904.github.io/_posts/images/plot%20function%20with%20line-2.png)
 
 Now we will create the same plot using ggplot()
 
@@ -385,7 +385,7 @@ ggplot(data = swiss) +
   geom_point(mapping = aes(x = Education, y = Fertility))
 ```
 
-![](/images/unnamed-chunk-10-1.png)
+![](D:/MJ/study/Personal Project/Github Portfolio/Github Blog/mj-kim904.github.io/_posts/images/unnamed-chunk-10-1.png)
 
 ``` r
 #Find slope and intercept using coef() function
@@ -401,7 +401,7 @@ ggplot(data = swiss) +
   geom_abline(slope = -0.862, intercept = 79.61)
 ```
 
-![](/images/unnamed-chunk-10-2.png)
+![](D:/MJ/study/Personal Project/Github Portfolio/Github Blog/mj-kim904.github.io/_posts/images/unnamed-chunk-10-2.png)
 
 \*More information about the line can be found in the posting for the
 linear regression.

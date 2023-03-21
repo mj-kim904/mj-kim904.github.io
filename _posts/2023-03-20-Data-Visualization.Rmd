@@ -33,6 +33,9 @@ Package Used: tidyverse
 ```{r, include=FALSE}
 knitr::opts_knit$set(base.dir = "D:/MJ/study/Personal Project/Github Portfolio/Github Blog/mj-kim904.github.io/_posts", base.url = "/")
 knitr::opts_chunk$set(fig.path = "images/")
+
+#WD Setting
+setwd("D:/MJ/study/Personal Project/Github Portfolio/Github Blog/mj-kim904.github.io/_posts")
 ```
 
 
