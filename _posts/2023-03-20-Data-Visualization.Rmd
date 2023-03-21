@@ -193,7 +193,6 @@ In the section, we will use "swiss" data set and learn how to add a line to a sc
 This data set shows the standardized fertility measure and socio-economic indicators for each of 47 French-speaking provinces of Switzerland at about 1888. 
 
 ```{r Swiss data}
-swiss
 head(swiss)
 summary(swiss)
 str(swiss)
