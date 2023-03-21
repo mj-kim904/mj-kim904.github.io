@@ -30,16 +30,13 @@ This is a lecture note for a data science course ("Data Science for Psychology M
 Data Used: mpg, Orange, swiss, a self-created data frame
 Package Used: tidyverse
 
-```{r, include=FALSE}
+```{r}
 knitr::opts_knit$set(base.dir = "D:/MJ/study/Personal Project/Github Portfolio/Github Blog/mj-kim904.github.io/_posts", base.url = "/")
 knitr::opts_chunk$set(fig.path = "images/")
-
-#WD Setting
-setwd("D:/MJ/study/Personal Project/Github Portfolio/Github Blog/mj-kim904.github.io/_posts")
 ```
 
 
-```{r load necessary package, include=FALSE}
+```{r load necessary package, exclude}
 library(tidyverse)
 ```
 
@@ -196,6 +193,7 @@ In the section, we will use "swiss" data set and learn how to add a line to a sc
 This data set shows the standardized fertility measure and socio-economic indicators for each of 47 French-speaking provinces of Switzerland at about 1888. 
 
 ```{r Swiss data}
+swiss
 head(swiss)
 summary(swiss)
 str(swiss)
