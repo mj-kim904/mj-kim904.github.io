@@ -3,8 +3,8 @@ title: "Basic Data Visualization in R"
 author: "Minjeong Kim"
 date: "2023-02-22"
 output:
-  html_document: default
-  pdf_document: default
+  md_document:
+    variant: markdown_github
 ---
 <style type="text/css">
 
