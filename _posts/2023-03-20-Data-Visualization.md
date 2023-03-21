@@ -21,6 +21,7 @@ pre {
   font-family: times, serif; font-size: 12px
 }
 </style>
+
 <center>
 **Data Visualization in R**
 <center>
