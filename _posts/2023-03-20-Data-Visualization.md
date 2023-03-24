@@ -10,6 +10,8 @@ output:
 
 toc: true
 toc_sticky: true
+categories: 
+  - PSY300
 ---
 
 <style type="text/css">
