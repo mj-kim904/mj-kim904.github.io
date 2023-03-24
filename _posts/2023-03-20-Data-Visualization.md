@@ -25,6 +25,11 @@ pre {
 }
 h1 {text-align: center;}
 h3 {text-align: center;}
+img.centered {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 </style>
 
 
