@@ -120,7 +120,7 @@ ggplot(data = mpg) +
   geom_point(mapping = aes(x = displ, y = hwy))
 ```
 
-<img src= "/_posts/images/unnamed-chunk-3-1.png">
+<img src= "../_posts/images/unnamed-chunk-3-1.png">
 
 ``` r
 #Highway Miles per Gallon vs. City Miles per Gallon
