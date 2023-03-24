@@ -20,8 +20,8 @@ foo:
 
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: /docs/quick-start-guide/
+  - title: "PSY 300"
+    url: /_posts/PSY300/
   - title: "About"
     url: /about/
   - title: "Sample Posts"
