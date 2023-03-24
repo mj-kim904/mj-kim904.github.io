@@ -1,7 +1,7 @@
 ---
 title: "PSY 300 Course Materials"
 layout: archive
-permalink: categories/PSY300
+permalink: /PSY300/
 author_profile: true
 sidebar_main: true
 ---
