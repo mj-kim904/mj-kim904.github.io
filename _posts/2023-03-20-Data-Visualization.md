@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Basic Data Visualization in R"
 author: "Minjeong Kim"
 date: "2023-02-22"
@@ -10,6 +10,7 @@ output:
 
 toc: true
 toc_sticky: true
+
 categories: 
   - PSY300
 ---
