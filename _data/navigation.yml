@@ -4,8 +4,10 @@ main:
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  #- title: "PSY300"
-  #  url: /PSY300/
+  - title: "PSY300"
+    url: /psy300/
+  - title: "PSY890"
+    url: /psy890/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
