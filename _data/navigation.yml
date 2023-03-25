@@ -5,19 +5,19 @@ main:
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   - title: "Course Materials"
-    href: /Course-Material/
-    children:
-    - childtitle: "PSY 300"
-      childhref: /PSY300/
-    - childtitle: "PSY 891"
-      childhref: /PSY891/
+    url: /Course-Material/
+    sublinks:
+    - title: "PSY 300"
+      url: /PSY300/
+    - title: "PSY 891"
+      url: /PSY891/
   - title: "R Programming"
-    href: /R-Programing/
-    children:
-    - childtitle: "Self-Initiated Projects"
-      childhref: /Self-R/
-    - childtitle: "Guided Projects"
-      childhref: /Guided-R/
+    url: /R-Programing/
+    sublinks:
+    - title: "Self-Initiated Projects"
+      url: /Self-R/
+    - title: "Guided Projects"
+      url: /Guided-R/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
