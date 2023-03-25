@@ -8,22 +8,24 @@ main:
     url: /psy300/
   - title: "PSY890"
     url: /psy890/
+  - title: "Guided Projects"
+    url: /guided-R/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
 
-docs:
-  - title: "Course Materials"
-    children:
-    - title: "PSY 300"
-      url: psy300/
-      category: "psy300"
-    - title: "PSY 890"
-      url: psy890/
-      category: "psy890"
-  - title: "Guided Projcts"
-    children:
-    - title: "R"
-      url: guided-R/
-      category: "guided-R"
+#docs:
+#  - title: "Course Materials"
+#    children:
+#    - title: "PSY 300"
+#      url: psy300/
+#      category: "psy300"
+#    - title: "PSY 890"
+#      url: psy890/
+#      category: "psy890"
+#  - title: "Guided Projects"
+#    children:
+#    - title: "R"
+#      url: guided-R/
+#      category: "guided-R"
