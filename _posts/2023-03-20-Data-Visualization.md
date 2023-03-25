@@ -37,8 +37,7 @@ img.centered {
 }
 </style>
 
-
-# **Data Visualization in R**
+## Lecture Objective
 
 
 This is a lecture note for a data science course (“Data Science for
@@ -118,7 +117,7 @@ Here is the code for visualization using the ggplot() function.
 **[Code]** ggplot(data = <DATA>) + <GEOM_FUNCTION>(mapping =
 aes(<MAPPINGS>))
 
-### **Scatter Plot**
+### **1. Scatter Plot**
 
 **[Code]** ggplot(data = <DATA>) + geom_point(mapping = aes(<MAPPINGS>))
 
@@ -140,7 +139,7 @@ ggplot(data = mpg) +
 
 ![](/assets/images/images/unnamed-chunk-3-2.png){: .align-center}
 
-### **Bar Graph**
+### **2. Bar Graph**
 
 ``` r
 survey <- data.frame(fruit = c("Apple", "Banana", "Grapes", "Kiwi", "Orange", "Pears"), people=c(40, 50, 30, 15, 35, 20))
@@ -171,7 +170,8 @@ ggplot(data = survey, aes(x=fruit, y=people)) +
 #The argument "stat = identity" is telling it not to transform the data.
 ```
 
-Additional Arguments
+#### Additional Arguments: Customizing
+
 
 ``` r
 #Make bars with color
@@ -247,7 +247,7 @@ ggplot(survey, aes(x=fruit, y=people, fill=fruit)) +
 
 ![](/assets/images/images/unnamed-chunk-5-7.png){: .align-center}
 
-### **Line Graph**
+### **3. Line Graph**
 
 Here, we will use a different data set called “Orange”.
 
@@ -299,7 +299,7 @@ ggplot(data = tree_1) +
 
 ![](/assets/images/images/unnamed-chunk-8-1.png){: .align-center}
 
-Additional Arguments
+#### Additional Arguments: Customizing
 
 ``` r
 #Give color to the line
@@ -313,7 +313,7 @@ ggplot(data = tree_1) +
 
 ![](/assets/images/images/unnamed-chunk-9-1.png){: .align-center}
 
-### **Scatter Plot with Line Added**
+### **4. Scatter Plot with Line Added**
 
 In the section, we will use “swiss” data set and learn how to add a line
 to a scatter plot.
