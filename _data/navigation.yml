@@ -4,16 +4,16 @@ main:
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  - title: "Course Materials"
-    url: /Course-Material/
-    sublinks:
+  - title: "Lecture Note"
+    url: /Lecture-Note/
+    child:
     - title: "PSY 300"
       url: /PSY300/
     - title: "PSY 891"
       url: /PSY891/
-  - title: "R Programming"
-    url: /R-Programing/
-    sublinks:
+  - title: "R Projects"
+    url: /R-Projects/
+    child:
     - title: "Self-Initiated Projects"
       url: /Self-R/
     - title: "Guided Projects"
