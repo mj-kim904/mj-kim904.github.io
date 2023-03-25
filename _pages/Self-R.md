@@ -1,7 +1,7 @@
 ---
 title: "Self-Initiated Projects with R"
 layout: archive
-permalink: /R-Projects/Self-R/
+permalink: /Self-R/
 author_profile: true
 ---
 

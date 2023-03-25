@@ -1,7 +1,7 @@
 ---
 title: "Guided Projects - R"
 layout: archive
-permalink: /R-Projects/Guided-R/
+permalink: /Guided-R/
 author_profile: true
 ---
 

@@ -5,15 +5,14 @@ main:
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   - title: "Lecture Note"
-    url: /Lecture-Note/
-    child:
+    sublinks:
     - title: "PSY 300"
       url: /PSY300/
     - title: "PSY 891"
       url: /PSY891/
+  
   - title: "R Projects"
-    url: /R-Projects/
-    child:
+    sublinks:
     - title: "Self-Initiated Projects"
       url: /Self-R/
     - title: "Guided Projects"
