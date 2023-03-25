@@ -5,11 +5,11 @@ main:
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   - title: "PSY300"
-    url: /psy300/
+    url: /PSY300/
   - title: "PSY890"
-    url: /psy890/
+    url: /PSY890/
   - title: "Guided Projects"
-    url: /guided-R/
+    url: /Guided-R/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
