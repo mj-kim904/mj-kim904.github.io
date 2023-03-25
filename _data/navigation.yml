@@ -6,8 +6,8 @@ main:
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   - title: "PSY300"
     url: /PSY300/
-  - title: "PSY890"
-    url: /PSY890/
+  - title: "PSY891"
+    url: /PSY891/
   - title: "Guided Projects"
     url: /Guided-R/
   - title: "Self-Initiated Projects"
@@ -23,9 +23,9 @@ main:
 #    - title: "PSY 300"
 #      url: /PSY300/
 #      category: "psy300"
-#    - title: "PSY 890"
-#      url: /PSY890/
-#      category: "PSY890"
+#    - title: "PSY 891"
+#      url: /PSY891/
+#      category: "PSY891"
 
 #  - title: "R Programming"
 #    children:
