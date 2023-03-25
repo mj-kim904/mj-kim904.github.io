@@ -2,8 +2,7 @@
 layout: single
 title: "Mini Project Collection"
 
-categories: 
-  - Self-R
+categories: [R-Programming, Self-R]
 
 author: "Minjeong Kim"
 date: "2023-03-21"
