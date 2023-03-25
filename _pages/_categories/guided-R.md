@@ -2,10 +2,7 @@
 title: "Guided Projects - R"
 layout: archive
 permalink: /guided-R/
-
 author_profile: true
-sidebar:
-    nav: "docs"
 ---
 
 
