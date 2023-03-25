@@ -4,11 +4,24 @@ main:
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  - title: "PSY300"
-    url: /PSY300/
-  - title: "Category"
-    url: /categories/
+  #- title: "PSY300"
+  #  url: /PSY300/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
+
+docs:
+  - title: "Course Materials"
+    children:
+    - title: "PSY 300"
+      url: psy300/
+      category: "psy300"
+    - title: "PSY 890"
+      url: psy890/
+      category: "psy890"
+  - title: "Guided Projcts"
+    children:
+    - title: "R"
+      url: guided-R/
+      category: "guided-R"

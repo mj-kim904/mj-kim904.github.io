@@ -1,16 +1,20 @@
 ---
-layout: post
+layout: single
 title: "Basic Data Visualization in R"
-toc: true
-toc_sticky: true
+
 categories: 
-  - PSY300
+  - psy300
 author: "Minjeong Kim"
 date: "2023-02-22"
 output:
   md_document:
     variant: markdown_github
     preserve_yaml: true
+
+toc: true
+toc_label: "Table of Contents"
+toc_icon: "bars"
+toc_sticky: true
 ---
 
 <style type="text/css">
