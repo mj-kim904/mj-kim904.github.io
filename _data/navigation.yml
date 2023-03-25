@@ -10,6 +10,8 @@ main:
     url: /PSY890/
   - title: "Guided Projects"
     url: /Guided-R/
+  - title: "Self-Initiated Projects"
+    url: /Self-R/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
@@ -19,13 +21,17 @@ main:
 #  - title: "Course Materials"
 #    children:
 #    - title: "PSY 300"
-#      url: psy300/
+#      url: /PSY300/
 #      category: "psy300"
 #    - title: "PSY 890"
-#      url: psy890/
-#      category: "psy890"
-#  - title: "Guided Projects"
+#      url: /PSY890/
+#      category: "PSY890"
+
+#  - title: "R Programming"
 #    children:
-#    - title: "R"
-#      url: guided-R/
-#      category: "guided-R"
+#    - title: "Self-Initiated Projects"
+#      url: /Self-R/
+#      category: "Self-R"
+#    - title: "Guided Projects"
+#      url: /Guided-R/
+#      category: "Guided-R"

@@ -3,7 +3,7 @@ layout: single
 title: "Basic Data Visualization in R"
 
 categories: 
-  - psy300
+  - PSY300
 author: "Minjeong Kim"
 date: "2023-02-22"
 output:

@@ -1,12 +1,12 @@
 ---
-title: "PSY 890 Course Materials"
+title: "Self-Initiated Projects - R"
 layout: archive
-permalink: /PSY890/
+permalink: /Self-R/
 author_profile: true
 ---
 
 
-{% assign posts = site.categories.PSY890 %}
+{% assign posts = site.categories.Self-R %}
 {% for post in posts %}
   {% include custom-archive-single.html type=entries_layout %}
 {% endfor %}
