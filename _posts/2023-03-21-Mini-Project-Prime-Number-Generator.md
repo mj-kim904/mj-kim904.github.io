@@ -1,6 +1,10 @@
 ---
 layout: single
 title: "Mini Project Collection"
+
+categories: 
+  - Self-R
+
 author: "Minjeong Kim"
 date: "2023-03-21"
 output:
@@ -9,6 +13,11 @@ output:
     preserve_yaml: true
 editor_options: 
   chunk_output_type: inline
+
+toc: true
+toc_label: "Table of Contents"
+toc_icon: "bars"
+toc_sticky: true
 ---
 
 <style type="text/css">
