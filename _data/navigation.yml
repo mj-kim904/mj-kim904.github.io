@@ -5,29 +5,39 @@ main:
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   - title: "Course Materials"
-    url: /Course-Material/
+    href: /Course-Material/
+    children:
+    - childtitle: "PSY 300"
+      childhref: /PSY300/
+    - childtitle: "PSY 891"
+      childhref: /PSY891/
   - title: "R Programming"
-    url: /R-Programing/
+    href: /R-Programing/
+    children:
+    - childtitle: "Self-Initiated Projects"
+      childhref: /Self-R/
+    - childtitle: "Guided Projects"
+      childhref: /Guided-R/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap/
 
-docs:
-  - title: "Course Materials"
-    children:
-    - title: "PSY 300"
-      url: /PSY300/
-      category: "psy300"
-    - title: "PSY 891"
-      url: /PSY891/
-      category: "PSY891"
-
-  - title: "R Programming"
-    children:
-    - title: "Self-Initiated Projects"
-      url: /Self-R/
-      category: "Self-R"
-    - title: "Guided Projects"
-      url: /Guided-R/
-      category: "Guided-R"
+#docs:
+#  - title: "Course Materials"
+#    children:
+#    - title: "PSY 300"
+#      url: /PSY300/
+#      category: "psy300"
+#    - title: "PSY 891"
+#      url: /PSY891/
+#      category: "PSY891"
+#
+#  - title: "R Programming"
+#    children:
+#    - title: "Self-Initiated Projects"
+#      url: /Self-R/
+#      category: "Self-R"
+#    - title: "Guided Projects"
+#      url: /Guided-R/
+#      category: "Guided-R"
