@@ -20,7 +20,7 @@ title                    : "MJ NOTE"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "MJ (Minjeong) Kim"
-description              : "An amazing website."
+description              : "My portfolio website."
 url                      : "https://mj-kim904.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "mj-kim904/mj-kim904.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -107,7 +107,7 @@ author:
   name             : "MJ (Minjeong) Kim"
   avatar           : "/assets/images/profile.jpg"
   bio              : "I love to play with data!"
-  location         : "Oakland, CA"
+  location         : "San Francisco Bay Area, CA"
   email            : "mj.kim9204@gmail.com"
   links:
     - label: "Email"
