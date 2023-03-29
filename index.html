@@ -2,11 +2,3 @@
 layout: home
 author_profile: true
 ---
-<div class="container">
-	<h2 class="editable" style="text-align:center;">✍🏼 Recent Posts </h2>
-		<div class="posts">
-			{% for post in paginator.posts limit:4 %}
-				{% include recent-posts.html type="grid" %}
-			{% endfor %}
-		</div>
-</div>
