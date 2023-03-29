@@ -6,17 +6,17 @@ main:
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   - title: "Lecture Note"
     sublinks:
-    - title: "PSY 300"
-      url: /PSY300/
-    - title: "PSY 891"
-      url: /PSY891/
+      - title: "PSY 300"
+        url: /PSY300/
+      - title: "PSY 891"
+        url: /PSY891/
   
   - title: "R Projects"
     sublinks:
-    - title: "Self-Initiated Projects"
-      url: /Self-R/
-    - title: "Guided Projects"
-      url: /Guided-R/
+      - title: "Self-Initiated Projects"
+        url: /Self-R/
+      - title: "Guided Projects"
+        url: /Guided-R/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
