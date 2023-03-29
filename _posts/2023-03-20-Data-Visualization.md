@@ -128,7 +128,7 @@ ggplot(data = mpg) +
   geom_point(mapping = aes(x = displ, y = hwy))
 ```
 
-![](/assets/images/images/unnamed-chunk-3-1.png){: .align-center}
+![](/assets/images/images-PSY300/Lecture1/unnamed-chunk-3-1.png){: .align-center}
 
 ``` r
 #Highway Miles per Gallon vs. City Miles per Gallon
@@ -136,7 +136,7 @@ ggplot(data = mpg) +
   geom_point(mapping = aes(x = cty, y = hwy))
 ```
 
-![](/assets/images/images/unnamed-chunk-3-2.png){: .align-center}
+![](/assets/images/images-PSY300/Lecture1/unnamed-chunk-3-2.png){: .align-center}
 
 ### **2. Bar Graph**
 
@@ -163,7 +163,7 @@ ggplot(data = survey, aes(x=fruit, y=people)) +
   geom_bar(stat = "identity")
 ```
 
-![](/assets/images/images/unnamed-chunk-4-1.png){: .align-center}
+![](/assets/images/images-PSY300/Lecture1/unnamed-chunk-4-1.png){: .align-center}
 
 ``` r
 #The argument "stat = identity" is telling it not to transform the data.
@@ -178,7 +178,7 @@ ggplot(survey, aes(x=fruit, y=people, fill=fruit)) +
   geom_bar(stat="identity")
 ```
 
-![](/assets/images/images/unnamed-chunk-5-1.png){: .align-center}
+![](/assets/images/images-PSY300/Lecture1/unnamed-chunk-5-1.png){: .align-center}
 
 ``` r
 #Make bars with specific color
@@ -187,7 +187,7 @@ ggplot(survey, aes(x=fruit, y=people, fill=fruit)) +
   scale_fill_manual(values = c("red2", "yellow2", "slateblue4", "green3", "orange", "olivedrab2"))
 ```
 
-![](/assets/images/images/unnamed-chunk-5-2.png){: .align-center}
+![](/assets/images/images-PSY300/unnamed-chunk-5-2.png){: .align-center}
 
 ``` r
 #Make bars with grey scale
@@ -196,7 +196,7 @@ ggplot(survey, aes(x=fruit, y=people, fill=fruit)) +
   scale_fill_grey()
 ```
 
-![](/assets/images/images/unnamed-chunk-5-3.png){: .align-center}
+![](/assets/images/images-PSY300/Lecture1/unnamed-chunk-5-3.png){: .align-center}
 
 ``` r
 #Make it in different theme
@@ -206,7 +206,7 @@ ggplot(survey, aes(x=fruit, y=people, fill=fruit)) +
   theme_classic()
 ```
 
-![](/assets/images/images/unnamed-chunk-5-4.png){: .align-center}
+![](/assets/images/images-PSY300/Lecture1/unnamed-chunk-5-4.png){: .align-center}
 
 ``` r
 #Modify bar width
@@ -216,7 +216,7 @@ ggplot(survey, aes(x=fruit, y=people, fill=fruit)) +
   theme_classic()
 ```
 
-![](/assets/images/images/unnamed-chunk-5-5.png){: .align-center}
+![](/assets/images/images-PSY300/Lecture1/unnamed-chunk-5-5.png){: .align-center}
 
 ``` r
 #Add titiles and label axes
@@ -229,7 +229,7 @@ ggplot(survey, aes(x=fruit, y=people, fill=fruit)) +
   ylab("Number of People")
 ```
 
-![](/assets/images/images/unnamed-chunk-5-6.png){: .align-center}
+![](/assets/images/images-PSY300/Lecture1/unnamed-chunk-5-6.png){: .align-center}
 
 ``` r
 #add labels 
@@ -244,7 +244,7 @@ ggplot(survey, aes(x=fruit, y=people, fill=fruit)) +
   ylab("Number of People")
 ```
 
-![](/assets/images/images/unnamed-chunk-5-7.png){: .align-center}
+![](/assets/images/images-PSY300/Lecture1/unnamed-chunk-5-7.png){: .align-center}
 
 ### **3. Line Graph**
 
@@ -260,7 +260,7 @@ ggplot(data = Orange) +
   geom_line(mapping = aes(x = age, y = circumference, color = Tree))
 ```
 
-![](/assets/images/images/unnamed-chunk-6-1.png){: .align-center}
+![](/assets/images/images-PSY300/Lecture1/unnamed-chunk-6-1.png){: .align-center}
 
 Now, we will create a line graph for tree 1 only.
 
@@ -296,7 +296,7 @@ ggplot(data = tree_1) +
   geom_line(mapping = aes(x = age, y = circumference))
 ```
 
-![](/assets/images/images/unnamed-chunk-8-1.png){: .align-center}
+![](/assets/images/images-PSY300/Lecture1/unnamed-chunk-8-1.png){: .align-center}
 
 #### Additional Arguments: Customizing
 
@@ -310,7 +310,7 @@ ggplot(data = tree_1) +
   ylab("Circumference")
 ```
 
-![](/assets/images/images/unnamed-chunk-9-1.png){: .align-center}
+![](/assets/images/images-PSY300/Lecture1/unnamed-chunk-9-1.png){: .align-center}
 
 ### **4. Scatter Plot with Line Added**
 
@@ -375,7 +375,7 @@ str(swiss)
 plot(swiss)
 ```
 
-![](/assets/images/images/Swiss%20data-1.png){: .align-center}
+![](/assets/images/images-PSY300/Lecture1/Swiss%20data-1.png){: .align-center}
 
 First, we will use basic function called “plot()” to graph.
 
@@ -393,7 +393,7 @@ plot(swiss$Fertility, swiss$Education)
 abline(lm(swiss$Education ~ swiss$Fertility))
 ```
 
-![](/assets/images/images/plot%20function%20with%20line-1.png){: .align-center}
+![](/assets/images/images-PSY300/Lecture1/plot%20function%20with%20line-1.png){: .align-center}
 
 ``` r
 #2) Fertility vs. Education
@@ -402,7 +402,7 @@ plot(swiss$Education, swiss$Fertility)
 abline(lm(swiss$Fertility ~ swiss$Education))
 ```
 
-![](/assets/images/images/plot%20function%20with%20line-2.png){: .align-center}
+![](/assets/images/images-PSY300/Lecture1/plot%20function%20with%20line-2.png){: .align-center}
 
 Now we will create the same plot using ggplot()
 
@@ -418,7 +418,7 @@ ggplot(data = swiss) +
   geom_point(mapping = aes(x = Education, y = Fertility))
 ```
 
-![](/assets/images/images/unnamed-chunk-10-1.png){: .align-center}
+![](/assets/images/images-PSY300/Lecture1/unnamed-chunk-10-1.png){: .align-center}
 
 ``` r
 #Find slope and intercept using coef() function
@@ -434,7 +434,7 @@ ggplot(data = swiss) +
   geom_abline(slope = -0.862, intercept = 79.61)
 ```
 
-![](/assets/images/images/unnamed-chunk-10-2.png){: .align-center}
+![](/assets/images/images-PSY300/Lecture1/unnamed-chunk-10-2.png){: .align-center}
 
 \*More information about the line can be found in the posting for the
 linear regression.
