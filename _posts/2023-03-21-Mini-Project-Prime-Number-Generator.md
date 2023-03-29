@@ -35,7 +35,7 @@ h3 {text-align: center;}
 
 </style>
 
-##1. Mini Project 1: Prime Number Generator
+## 1. Mini Project 1: Prime Number Generator
 
 The purpose of this mini project is to create a function generating all
 prime numbers in a given range. 
