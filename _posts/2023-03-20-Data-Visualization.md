@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Basic Data Visualization in R"
+title: "Lecture 1: Basic Data Visualization in R"
 
 categories: [Course-Material, PSY300]
 author: "Minjeong Kim"
