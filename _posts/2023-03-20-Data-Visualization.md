@@ -44,12 +44,16 @@ Psychology Major”) at San Francisco State University (lectured by
 Dr. Gaurav Suri). This lecture was intended to learn different methods
 of data visualization to gather graphical interpretation on given data.
 
+Learning Objectives
+* Understand how to interpret and evalutate data in tables and graphs
+* Learn how to draw labelled graphs by hand and with R
+
 Data Used: mpg, Orange, swiss, a self-created data frame Package Used:
 tidyverse
 
 ``` r
 knitr::opts_knit$set(base.dir = "D:/MJ/study/Personal Project/Github Portfolio/Github Blog/mj-kim904.github.io/assets/images", base.url = "/")
-knitr::opts_chunk$set(fig.path = "images/")
+knitr::opts_chunk$set(fig.path = "images/images-PSY300/Lecture1")
 ```
 
 ``` r
@@ -64,6 +68,8 @@ library(tidyverse)
     ## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
     ## ✖ dplyr::filter() masks stats::filter()
     ## ✖ dplyr::lag()    masks stats::lag()
+
+Frist, you need to define and understand the goal of your analysis. This will determine the type of data, analysis, and visualizations needed for the analysis.
 
 ``` r
 head(mpg)
@@ -111,12 +117,14 @@ summary(mpg)
 # The summary() function tells you the various fields and summarizes the quantitative fields.
 ```
 
-Here is the code for visualization using the ggplot() function.
+Here is the basic frame of code for visualization using the ggplot() function.
 
 **[Code]** ggplot(data = <DATA>) + <GEOM_FUNCTION>(mapping =
 aes(<MAPPINGS>))
 
 ### **1. Scatter Plot**
+
+Scatter plot shows a set of points to display values for two different numerical variables. It is widely used to present measurements of relationship between two or more variables.
 
 **[Code]** ggplot(data = <DATA>) + geom_point(mapping = aes(<MAPPINGS>))
 
@@ -139,6 +147,8 @@ ggplot(data = mpg) +
 ![](/assets/images/images-PSY300/Lecture1/unnamed-chunk-3-2.png){: .align-center}
 
 ### **2. Bar Graph**
+
+Bar graphs present data by using bars of equal width but different heights on a grid. The bars may be vertical or horizontal. The heights/lengths of bars are proportional to the values that they represent. Bar graphs can be used to compare items or to show how something changes over time.
 
 ``` r
 survey <- data.frame(fruit = c("Apple", "Banana", "Grapes", "Kiwi", "Orange", "Pears"), people=c(40, 50, 30, 15, 35, 20))
@@ -262,7 +272,7 @@ ggplot(data = Orange) +
 
 ![](/assets/images/images-PSY300/Lecture1/unnamed-chunk-6-1.png){: .align-center}
 
-Now, we will create a line graph for tree 1 only.
+Now, we will create a line graph for tree 1 by selecting tree 1 data.
 
 ``` r
 head(Orange)
